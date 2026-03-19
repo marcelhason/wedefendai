@@ -1,0 +1,80 @@
+/**
+ * User: Hason Marcel
+ * Date: 10.05.2024
+ */
+
+
+body.login {
+    background-color: #fff;
+   /* background: url('https://capexus.testovaciadomena.com/wp-content/uploads/2024/08/capexus-logo.svg') 0 0 no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;*/
+}
+.login form {
+    background-color: #efefef;
+    border-radius: 15px;
+}
+.login label {
+    color: #ededed;
+    font-size: 12px;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    border: none;
+    border-radius: 5px;
+    color: #213a8f;
+    font-size: 12px;
+}
+
+.login h1 a {
+    background: url('http://vzor.hason.sk/wp-content/themes/vzor/assets/images/capexus-logo.svg') 0 0 no-repeat!important;
+    background-size: contain!important;
+        background-position: center!important;
+    height: 60px!important;
+    width: 100%!important;
+}
+
+.login #login_error, .login .message, .login .success {
+    border-left: 4px solid #8d877f;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.wp-core-ui .button-primary {
+    background: #01b3cd;
+    border-color: #01b3cd;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+.wp-core-ui , .wp-core-ui .button-secondary {
+    color: #000000;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #fff;
+    border-color: #01b3cd;
+    color: #01b3cd;
+}
+
+.login label {
+    color: #000000;
+    font-size: 14px;
+}
+input[type=checkbox]:focus, input[type=password]:focus, input[type=text]:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 1px #383838;
+    outline: 2px solid transparent;
+}
+
+#login {
+    padding: 10% 0 0;
+}
+
+#nav,
+#backtoblog {
+    display: none;
+}

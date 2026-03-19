@@ -1,0 +1,5 @@
+.vscode/sftp.json
+wp-config.php
+wp-admin/
+wp-includes/
+wp-content/uploads/
