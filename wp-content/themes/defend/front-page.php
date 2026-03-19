@@ -11,7 +11,7 @@ Template Name: Front page
                     <div class="container py-md-5">
                         <div class="row align-items-center mt-4 mt-md-1">
                             <div class="col-md-8">
-                                <h1><?php the_title(); ?></h1>
+                                <h1><?php the_title(); ?> skuska</h1>
 								<?php the_content(); ?>
                             </div>
                         </div>
